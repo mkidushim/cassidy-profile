@@ -1,0 +1,241 @@
+#canvas-wrapper {
+    position:relative;    
+    width: 100%;
+    height:550px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: scroll;
+    margin-top: 10px;
+}
+#canvas-wrapper{
+	
+}
+#canvas, #canvasTemp {
+  position:absolute;
+  top:0px;
+  left:0px;
+  border:1px solid blue;   
+}
+.plot-map-canvas..plot-map-canvas2{
+	max-width: none !important;
+  width: 1275px;
+  height: 1650px;
+}
+#canvasTemp {
+  border:1.5px solid green;
+}
+#canvas {
+  border:1px solid red;
+}
+.map-button-container{  
+  margin-bottom: 10px;
+  display: flex;
+  height: 20px;
+}
+.points-container{
+	float: left;
+	width: 300px;
+}
+ .zone-top-btn{
+	cursor: pointer;		
+	color: black;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+	width: auto;
+	color: #B0B0B0;	
+}
+.clear-last{
+	display: none;
+}
+
+.points-table,{
+	width: 400px;
+	border:1px solid #222222;
+	margin-top: 10px;
+	border-collapse: collapse;
+	text-align: center;
+}
+.close-canvas-icon{
+  margin-right: -8px;
+}
+.zone-table{
+	width: 100%;
+}
+.zone-table tbody tr td:first-child{
+	border-left: 1px solid #222222 !important;
+}
+.col_6.map-plot-hide.right.hide.column{
+	margin-right: 0px;
+	float: right;
+}
+.button-sep{	
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #B0B0B0;
+}
+.col_12.points_col{  
+  margin-top: 10px;
+}
+.map_col_4{
+	margin-right: 0px;
+  margin-left: 0.83333333333333%;	
+}
+.col_5.map_col_5{
+	margin-left: 0px;
+}
+.points-table tr th, .points-table tr td,.zone-table tr th,.zone-table tr td{
+	border:	1px solid black;
+}
+.zones-container{
+  position: relative;
+  top: 0px;  
+  width: 100%;
+}
+.remove-zone{
+	cursor: pointer;
+	background: black;
+	color: white;	
+}
+.edit-map-text-th{	
+	font-size: 14px;
+}
+.edit-zone-pencil{	
+	padding: 0px;
+	margin-right: 7px;
+}
+.zone-description{
+	float: left;
+}
+.add-zone-btn{
+	width: 160px;
+	font-size: 18px;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+.save-new-zone{
+	float: right;
+	background: #00c340 !important;
+}
+.remove-new-zone,.remove-zone{
+	background: #d90000 !important;
+	float: left;
+}
+.replot-zone{
+	float:left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+.zone-save-button-container{
+	width: 87%;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+.edit-zone-icon.map{
+	right: 50px;
+}
+.save-current-zone{
+	float: right;
+	background: #00c340 !important;	
+}
+.map-upper-wrapper,.map-upper-grid{
+	/*position: relative;*/
+	/*height: 40px;*/
+}
+.upload-zone-create-edit-table{
+	 float: left;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 5%;
+  width: 90%;
+  margin-right: auto;
+}
+.upload-zone-create-edit-table tbody tr td{
+	border-bottom: none;
+	padding-top: 3px;
+	padding-bottom: 10px;
+}
+.zone-create-edit-description{
+	width: 100%;
+	height: auto;
+	min-height: 100px;
+	max-height: 400px;
+	padding-top: 7px;
+}
+.zone-create-edit-input{
+	width: 100%;
+	font-size: 15px;
+}
+.map-upper-wrapper.column{
+	margin-left: 0px;
+	margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0px;
+}
+#wrapper.container.col_12.files.map-table-hide{
+	margin-top: -8px;
+}
+
+.zone-container{
+	margin-top: 0px;
+}
+.zone-info-table{
+	margin-bottom: 0px;
+}	
+.zone-info-table thead tr th{
+	height: 25px !important;
+}
+#zone-table.inner-table tr td{
+  border-bottom: 1px dotted #222222;
+  border-left: none !important;
+  height: 20px !important;
+}
+#zone-table.inner-table tr td:last-child{
+	padding-left: 20px !important;
+}
+#zone-table.inner-table tr:last-child td{
+  border-bottom: none;
+}
+#zone-table.zone-info-table tr {
+	border-left: 2px solid #222222;
+	border-right: 2px solid #222222;
+}
+#zone-table.inner-table tr{
+	border-left: none !important;
+	border-right: none !important;	
+}
+.table-wrap.zone-table-wrap {
+  border-bottom: 2px solid #222222;
+}
+#zone-table thead th{
+	padding: 0px;
+	padding-left: 7px;
+	padding-top: 3px;
+	padding-bottom:3px;
+	padding-right: 7px;
+}
+#zone-table.inner-table td{
+	padding: 0px;
+	padding-top: 3px;
+	padding-bottom:3px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.zone-title-col{
+	width: 23%;
+}
+.remove-zone-btn-container{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.confirm.remove-zone{
+	float: none;
+}
+#container2, #container{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
