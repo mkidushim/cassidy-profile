@@ -34,7 +34,7 @@
 								<div class="card-body">
 									<ul class="timeline collapse-lg timeline-hairline">
 										<li class="timeline-inverted">
-											<div class="timeline-circ circ-xl style-primary"><span class="glyphicon glyphicon-leaf"></span></div>
+											<div class="timeline-circ circ-xl style-primary"></div>
 											<div class="timeline-entry">
 												<div class="card style-default-bright">
 													<div class="card-body small-padding">
@@ -50,7 +50,7 @@
 											</div>
 										</li>
 										<li class="timeline-inverted">
-											<div class="timeline-circ circ-xl style-primary"><span class="glyphicon glyphicon-leaf"></span></div>
+											<div class="timeline-circ circ-xl style-primary"></div>
 											<div class="timeline-entry">
 												<div class="card style-default-bright">
 													<div class="card-body small-padding">
@@ -67,7 +67,7 @@
 											</div>
 										</li>
 										<li class="timeline-inverted">
-											<div class="timeline-circ circ-xl style-primary"><span class="glyphicon glyphicon-leaf"></span></div>
+											<div class="timeline-circ circ-xl style-primary"></div>
 											<div class="timeline-entry">
 												<div class="card style-default-bright">
 													<div class="card-body small-padding">
@@ -84,7 +84,7 @@
 											</div>
 										</li>
 										<li class="timeline-inverted">
-											<div class="timeline-circ circ-xl style-primary"><span class="glyphicon glyphicon-leaf"></span></div>
+											<div class="timeline-circ circ-xl style-primary"></div>
 											<div class="timeline-entry">
 												<div class="card style-default-bright">
 													<div class="card-body small-padding">
@@ -101,7 +101,7 @@
 											</div>
 										</li>
 										<li class="timeline-inverted">
-											<div class="timeline-circ circ-xl style-primary"><span class="glyphicon glyphicon-leaf"></span></div>
+											<div class="timeline-circ circ-xl style-primary"></div>
 											<div class="timeline-entry">
 												<div class="card style-default-bright">
 													<div class="card-body small-padding">

@@ -63,6 +63,13 @@
 												</div>
 											</div>
 										</div>
+										<div class="card-body col-md-6 text-center">
+											<div class="well style-primary">
+												<div class="clearfix">
+													Leadership - Secretary of Chi Omega
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>

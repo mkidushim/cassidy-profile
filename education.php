@@ -34,12 +34,14 @@
 								<div class="card-body">
 									<ul class="timeline collapse-lg timeline-hairline">
 										<li class="timeline-inverted">
-											<div class="timeline-circ circ-xl style-primary"><span class="glyphicon glyphicon-leaf"></span></div>
+											<div class="timeline-circ circ-xl style-primary">
+												
+											</div>
 											<div class="timeline-entry">
 												<div class="card style-default-bright">
 													<div class="card-body small-padding">
-														<img class="img-circle img-responsive pull-left width-1" src="" alt="">
-														<span class="text-medium">University of Denver, Denver, CO</span><br>
+														<span class="text-bold">University of Denver, Denver, CO</span>
+														<br>
 														<span class="opacity-50">
 															Bachelor of Science Business Administration
 														</span>
@@ -47,16 +49,21 @@
 														<span class="opacity-50">
 															Present - 2018
 														</span>
+														<br>
+														<span class="">- Current GPA: 3.97</span> 
+														<br>
+														<span class="">- Minors in Marketing and French</span>
+														<br>
+														<span class="">- Relevant Courses: Business Calculus, Business Analytics , Accounting, International Finance,International Marketing, Consumer Behavior, B2B Marketing, International Business Law, and International Management. </span> 
 													</div>
 												</div>
 											</div>
 										</li>
 										<li class="timeline-inverted">
-											<div class="timeline-circ circ-xl style-primary"><span class="glyphicon glyphicon-leaf"></span></div>
+											<div class="timeline-circ circ-xl style-primary"></div>
 											<div class="timeline-entry">
 												<div class="card style-default-bright">
 													<div class="card-body small-padding">
-														<img class="img-circle img-responsive pull-left width-1" src="" alt="">
 														<span class="text-medium">University of Lille III, Lille, France</span><br>
 														<span class="opacity-50">
 															Semester Abroad
@@ -64,6 +71,13 @@
 														<br>
 														<span class="opacity-50">
 															September 2016 – December 2016
+														</span>
+														<br>
+														<span>-
+															Studied French by taking courses in French cinema, language, and conversation  
+														</span>
+														<span>-
+															Acclimated to a new environment and used cross-cultural communications to overcome language barriers Maintained finances using various currencies 
 														</span>
 													</div>
 												</div>

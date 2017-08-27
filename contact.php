@@ -50,7 +50,7 @@
 																<i class="fa fa-map-marker"></i>
 															</div>
 															<div class="tile-text">
-																Mission Viejo, CA 92692
+																Denver, CO, 80210
 															</div>
 														</a>
 													</li>
@@ -161,15 +161,15 @@
 			$('#navbar ul li.contact').addClass('active');
 			var markerMap = new GMaps({
 				div: '#marker-map',
-				lat: 33.631894,
-				lng: -117.639704,
+				lat: 39.7392,
+				lng: -104.9903,
 				zoom: 11
 			});
 
 			markerMap.addMarker({
-				lat: 33.631894,
-				lng: -117.639704,
-				title: 'Mission Viejo',
+				lat: 39.7392,
+				lng: -104.9903,
+				title: 'Denver',
 				click: function (e) {
 					alert('You clicked in this marker');
 				}
