@@ -52,15 +52,13 @@
 											<br>
 											<h2 class="">About <span class="title-color">Me</span></h3>
 											<span class="text-medium">
-												Hi! I’m Cassidy. I love global business, marketing, and design.
-												<br>
-												I am a 4th-year student at the University of Denver studying International Business, Marketing, and French. I serve on the executive board of the Chi Omega Fraternity as the chapter’s Secretary. I have traveled throughout Europe, North America, and China to pursue my passion for traveling. I studied abroad in France for six months during fall of 2016 to study the French language and culture. I also interned in China during the summer of 2017 to learn efficient sourcing of commodity products and the Chinese business culture. 
+												Hi! I’m Cassidy. I love global business, marketing, and design.  I am a 4th-year student at the University of Denver studying International Business, Marketing, and French. I serve on the executive board of the Chi Omega Fraternity as the chapter’s Secretary. I have traveled throughout Europe, North America, and China to pursue my passion for traveling. I studied abroad in France for six months during fall of 2016 to study the French language and culture. I also interned in China during the summer of 2017 to learn efficient sourcing of commodity products and the Chinese business culture. 
 											</span>
 										</div>
 										<div class="col-md-12 margin-top-xxl hidden-xs hidden-sm">
 											<br>
-											<button type="button" class="btn ink-reaction btn-raised btn-primary">Contact Me</button>
-											<button type="button" class="pull-right btn ink-reaction btn-raised btn-primary">Download Resume</button>
+											<a href="contact.php" class="btn ink-reaction btn-raised btn-primary">Contact Me</a>
+											<a href="img/resume.pdf" download class="pull-right btn ink-reaction btn-raised btn-primary">Download Resume</a>
 										</div>
 									</div>
 									<div class="col-md-6">
@@ -89,13 +87,11 @@
 									</div>
 									<div class="col-xs-12 col-sm-12 hidden-md hidden-lg hidden-xl">
 										<br>
-										<button type="button" class="btn ink-reaction btn-raised btn-primary mobile-btn">Contact Me</button>
+										<a href="contact.php" class="btn ink-reaction btn-raised btn-primary mobile-btn">Contact Me</a>
 									</div>
 									<div class="col-xs-12 col-sm-12 hidden-md hidden-lg hidden-xl">
 										<br>
-										<button type="button" class="btn ink-reaction btn-raised btn-primary mobile-btn">Download Resume</button>
-									</div>
-										</div>
+										<a href="img/resume.pdf" download="true" class="btn ink-reaction btn-raised btn-primary mobile-btn">Download Resume</a>
 									</div>
 								</div>
 							</div>

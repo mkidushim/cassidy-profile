@@ -42,19 +42,18 @@
 													<div class="card-body small-padding">
 														<span class="text-bold">University of Denver, Denver, CO</span>
 														<br>
-														<span class="opacity-50">
-															Bachelor of Science Business Administration
-														</span>
-														<br>
-														<span class="opacity-50">
+														<span class="opacity-50 color-name">
 															Present - 2018
 														</span>
+														<span class="opacity-50">
+															| Bachelor of Science Business Administration
+														</span>
 														<br>
-														<span class="">- Current GPA: 3.97</span> 
-														<br>
-														<span class="">- Minors in Marketing and French</span>
-														<br>
-														<span class="">- Relevant Courses: Business Calculus, Business Analytics , Accounting, International Finance,International Marketing, Consumer Behavior, B2B Marketing, International Business Law, and International Management. </span> 
+														<ul class="custom-list">
+															<li>Current GPA: 3.97</li>
+															<li>Minors in Marketing and French</li>
+															<li>Relevant Courses: Business Calculus, Business Analytics , Accounting, International Finance,International Marketing, Consumer Behavior, B2B Marketing, International Business Law, and International Management.</li>
+														</ul>
 													</div>
 												</div>
 											</div>
@@ -64,21 +63,19 @@
 											<div class="timeline-entry">
 												<div class="card style-default-bright">
 													<div class="card-body small-padding">
-														<span class="text-medium">University of Lille III, Lille, France</span><br>
-														<span class="opacity-50">
-															Semester Abroad
-														</span>
+														<span class="text-medium">University of Lille III, Lille, France</span>
 														<br>
-														<span class="opacity-50">
+														<span class="opacity-50 color-name">
 															September 2016 – December 2016
 														</span>
+														<span class="opacity-50">
+															| Semester Abroad
+														</span>
 														<br>
-														<span>-
-															Studied French by taking courses in French cinema, language, and conversation  
-														</span>
-														<span>-
-															Acclimated to a new environment and used cross-cultural communications to overcome language barriers Maintained finances using various currencies 
-														</span>
+														<ul class="custom-list">
+															<li>Studied French by taking courses in French cinema, language, and conversation</li>
+															<li>Acclimated to a new environment and used cross-cultural communications to overcome language barriers Maintained finances using various currencies </li>
+														</ul>
 													</div>
 												</div>
 											</div>

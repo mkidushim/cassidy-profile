@@ -30,7 +30,7 @@
 					<div class="section-body">
 						<div class="row">
 							<div class="card style-default-light">
-								<div class="card-head style-primary"> <header>Education</header></div>
+								<div class="card-head style-primary"> <header>Experience</header></div>
 								<div class="card-body">
 									<ul class="timeline collapse-lg timeline-hairline">
 										<li class="timeline-inverted">
@@ -39,12 +39,18 @@
 												<div class="card style-default-bright">
 													<div class="card-body small-padding">
 														<img class="img-circle img-responsive pull-left width-1" src="" alt="">
-														<span class="text-medium">DANIELS COLLEGE OF BUSINESS -  Denver, CO - <span class="opacity-50">Admissions Team / Front Desk Assistant
-														</span></span>
+														<span class="text-medium">DANIELS COLLEGE OF BUSINESS -  Denver, CO </span>
 														<br>
 														<span class="opacity-50 color-name">
 															November 2014 – Present
 														</span>
+														<span class="opacity-50">| Admissions Team / Front Desk Assistant
+														</span>
+														<br>
+														<ul class="custom-list">
+															<li >Meet with prospective students and advise them on the Daniels College of Business’ curriculum and student life  </li>
+															<li >Schedule advising appointments and participate in events relating to the Daniels College of Business  </li>
+														</ul>
 													</div>
 												</div>
 											</div>
@@ -55,13 +61,21 @@
 												<div class="card style-default-bright">
 													<div class="card-body small-padding">
 														<img class="img-circle img-responsive pull-left width-1" src="" alt="">
-														<span class="text-medium">WUXI SUJINGRUI INTERNATIONAL TRADE COMPANY - Wuxi, China - <span class="opacity-50">
-															 International Sales Intern  
-														</span></span>
+														<span class="text-medium">WUXI SUJINGRUI INTERNATIONAL TRADE COMPANY - Wuxi, China </span> 
 														<br>
 														<span class="opacity-50  color-name">
 															July 2017 – August 2017
 														</span>
+														<span class="opacity-50">
+															 | International Sales Intern  
+														</span>
+														<ul class="custom-list">
+															<li >Sourced suppliers for US restaurant packaging companies</li>
+															<li >Visited factories to perform quality checks and negotiate product pricing </li>
+															<li >Analyzed factory data concerning sales, production capacity, and customer satisfaction to evaluate the factories’ efficiency</li>
+															<li >Compared multiple factories’ performance data to choose the best factories for sourcing  
+															<li >Learned the Chinese culture to employ effective business interactions </li>
+														</ul>
 													</div>
 												</div>
 											</div>
@@ -72,13 +86,21 @@
 												<div class="card style-default-bright">
 													<div class="card-body small-padding">
 														<img class="img-circle img-responsive pull-left width-1" src="" alt="">
-														<span class="text-medium">ELITE ASSOCIATES - Brea, CA - <span class="opacity-50">
-															Summer Intern
-														</span></span>
+														<span class="text-medium">ELITE ASSOCIATES - Brea, CA </span>
 														<br>
 														<span class="opacity-50  color-name">
 															June 2015 – August 2015  
 														</span>
+														<span class="opacity-50">
+															| Summer Intern
+														</span>
+														<br>
+														<ul class="custom-list">
+															<li >Received an overview of the foodservice industry by working with the Marketing, Customer Service, and Sales Departments</li>
+															<li >Created order guides and customized flyers and points of sale for the Marketing Department</li>
+															<li >Compiled data to compare business trends and analyzed business performance by completing a gap analysis</li>
+															<li >Met with clients to introduce new products and complete sales with the Sales Department via cold-calls and food shows</li>
+														</ul>
 													</div>
 												</div>
 											</div>
@@ -89,13 +111,20 @@
 												<div class="card style-default-bright">
 													<div class="card-body small-padding">
 														<img class="img-circle img-responsive pull-left width-1" src="" alt="">
-														<span class="text-medium">KENTEC MEDICAL -  Irvine, CA - <span class="opacity-50">
-															Warehouse Inventory Assistant 
-														</span></span>
+														<span class="text-medium">KENTEC MEDICAL -  Irvine, CA </span>
 														<br>
 														<span class="opacity-50 color-name">
 															December 2014 – January 2015
 														</span>
+														<span class="opacity-50">
+															| Warehouse Inventory Assistant 
+														</span>
+														<br>
+														<ul class="custom-list">
+															<li >Organized medical supplies and prepared them for distribution</li>
+															<li >Calculated the business’ inventory and compared data to the previous year’s inventory count</li>
+															<li >Filed and organized invoices and other business documents</li>
+														</ul>
 													</div>
 												</div>
 											</div>
@@ -106,13 +135,20 @@
 												<div class="card style-default-bright">
 													<div class="card-body small-padding">
 														<img class="img-circle img-responsive pull-left width-1" src="" alt="">
-														<span class="text-medium">RUBY’S DINER - Mission Viejo, CA - <span class="opacity-50">
-															Cashier/Hostess
-														</span></span>
+														<span class="text-medium">RUBY’S DINER - Mission Viejo, CA </span>
 														<br>
 														<span class="opacity-50 color-name">
 															June 2012 – June 2014
 														</span>
+														<span class="opacity-50">
+															| Cashier/Hostess
+														</span>
+														<br>
+														<ul class="custom-list">
+															<li >Monitored checkout stations to ensure that they had adequate cash available and that they were staffed appropriately </li>
+															<li >Provided on-the-job training to new employees</li>
+															<li >Employed customer service skills by greeting customers, answering customers’ questions, and providing information on  procedures or policies</li>
+														</ul>
 													</div>
 												</div>
 											</div>
