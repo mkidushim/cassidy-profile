@@ -47,7 +47,9 @@
 													<li class="tile">
 														<a class="tile-content">
 															<div class="tile-icon">
-																<i class="fa fa-map-marker"></i>
+																<div class="icon-circ">
+																	<i class="fa fa-map-marker"></i>
+																</div>
 															</div>
 															<div class="tile-text">
 																Denver, CO, 80210
@@ -57,7 +59,9 @@
 													<li class="tile">
 														<a class="tile-content ink-reaction" href="tel:+9496063116">
 															<div class="tile-icon">
-																<i class="fa fa-phone"></i>
+																<div class="icon-circ">
+																	<i class="fa fa-phone"></i>
+																</div>
 															</div>
 															<div class="tile-text">
 																(949)606-3116
@@ -67,7 +71,9 @@
 													<li class="tile">
 														<a class="tile-content ink-reaction" href="mailto:Cassidy@cassidyhumphrey.com">
 															<div class="tile-icon">
-																<i class="fa fa-envelope"></i>
+																<div class="icon-circ">
+																	<i class="fa fa-envelope"></i>
+																</div>
 															</div>
 															<div class="tile-text">
 																Cassidy@cassidyhumphrey.com
@@ -88,7 +94,7 @@
 											<div class="row">
 												<div class="col-md-12">
 													<div class="form-group">
-														<input type="text" name="name" class="form-control" placeholder="Full Name">
+														<input type="text" name="name" class="form-control name" placeholder="Full Name">
 													</div>
 												</div>
 											</div>
@@ -114,7 +120,7 @@
 											<div class="row">
 												<div class="col-md-12">
 													<div class="form-group">
-														<button type="submit" class="btn btn-flat btn-primary">Send Message</button>	
+														<button type="submit" class="btn btn-raised btn-primary">Send Message</button>	
 													</div>
 												</div>
 											</div>
@@ -174,6 +180,28 @@
 					alert('You clicked in this marker');
 				}
 			});
+			$(document).on('submit','.form',function(){
+				var form = new FormData();
+				var name = $('.name').val();
+				var email =$('.email').val();
+				var message = $('.message').val();
+				form.append('email',email);
+				form.append('name',name);
+				form.append('message',message);
+        $.ajax({
+          type: "POST",
+          data: form,
+          url: "php/submit_form.php", //portal file
+          success: function(data) {
+            if (data.status == "NO") {
+              alert("Failed to set session.");
+              return;
+            } else {
+							console.log(data);
+            }
+          }
+        });
+      });
 		});
 	</script>
 		<!-- Put App.js last in your javascript imports -->

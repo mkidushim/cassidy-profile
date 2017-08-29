@@ -73,11 +73,18 @@ section .style-primary{
 .list .tile a:hover{
  color: rgb(211, 171, 165) ; 
 }
+.list .tile i{
+  color: rgb(211, 171, 165) ; 
+  background-color: #777; 
+}
 .text-primary{
   color:rgb(211, 171, 165) ;
 }
 .well.style-primary{
   border: #fff!important;
+}
+.well div{
+  color: #fff!important;
 }
 .card .btn-flat:hover{
   background-color:rgb(211, 171, 165);
@@ -101,6 +108,7 @@ section .style-primary{
   left: 20px;
 }
 .card-body.home{
+  padding-top: 45px;
  border-radius: 10px 10px 0 0; 
 }
 .home-container h1{
@@ -183,4 +191,24 @@ section .style-primary{
 }
 .card-tiles .img-responsive{
   margin: auto;
+}
+.icon-circ{
+  width: 36px;
+  height: 36px;
+  background-color: #777;
+  border-radius: 20px;
+  text-align: center;
+}
+.icon-circ i{
+  line-height: 27px;
+  font-size: 16px!important;
+}
+.custom-list{
+  list-style-type: circle;
+}
+.list .tile{
+  /*min-height: 20px!important;*/
+}
+.custom-list li{
+  white-space: normal;
 }
