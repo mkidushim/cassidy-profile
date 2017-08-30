@@ -48,7 +48,7 @@
 														<img src="img/hiking.jpeg" alt="">
 													</div>
 													<div class="card-body blog-text">
-														<h3>Tiananmen Square; Beijing, China</h3>
+														<h3>Hiking</h3>
 													</div>
 												</article><!-- end /article -->
 												<article>
@@ -56,14 +56,22 @@
 														<img src="img/sorority.jpeg" alt="">
 													</div>
 													<div class="card-body blog-text">
-														<h3>Tiananmen Square; Beijing, China</h3>
+														<h3>Chi Omega Sorority</h3>
 													</div>
 												</article>
+												<article>
+													<div class="blog-image">
+														<img src="img/travel7.jpeg" alt="">
+													</div>
+													<div class="card-body blog-text">
+														<h3>Paris, France</h3>
+													</div>
+												</article><!-- end /article -->
 											</div><!--end .col -->
-											<div class="col-md-4">
+											<div class="col-md-4 hidden-xs hidden-sm">
 												<article>
 													<div class="card-body blog-text">
-														<h3>Tiananmen Square; Beijing, China</h3>
+														<h3>Prague Castle; Prague, Czech Republic</h3>
 													</div>
 													<div class="blog-image">
 														<img src="img/travel4.jpeg" alt="">
@@ -71,7 +79,7 @@
 												</article><!-- end /article -->
 												<article>
 													<div class="card-body blog-text">
-														<h3>Tiananmen Square; Beijing, China</h3>
+														<h3>Florence, Italy</h3>
 													</div>
 													<div class="blog-image">
 														<img src="img/travel3.jpeg" alt="">
@@ -79,10 +87,36 @@
 												</article><!-- end /article -->
 												<article>
 													<div class="card-body blog-text">
-														<h3>Tiananmen Square; Beijing, China</h3>
+														<h3>Amsterdam</h3>
 													</div>
 													<div class="blog-image">
 														<img src="img/travel5.png" alt="">
+													</div>
+												</article>
+											</div>
+											<div class="col-md-4 hidden-lg hidden-md">
+												<article>
+													<div class="blog-image">
+														<img src="img/travel4.jpeg" alt="">
+													</div>
+													<div class="card-body blog-text">
+														<h3>Prague Castle; Prague, Czech Republic</h3>
+													</div>
+												</article><!-- end /article -->
+												<article>
+													<div class="blog-image">
+														<img src="img/travel3.jpeg" alt="">
+													</div>
+													<div class="card-body blog-text">
+														<h3>Florence, Italy</h3>
+													</div>
+												</article><!-- end /article -->
+												<article>
+													<div class="blog-image">
+														<img src="img/travel5.png" alt="">
+													</div>
+													<div class="card-body blog-text">
+														<h3>Amsterdam</h3>
 													</div>
 												</article>
 											</div>
@@ -92,7 +126,7 @@
 														<img src="img/yoga.png" alt="">
 													</div>
 													<div class="card-body blog-text">
-														<h3>Tiananmen Square; Beijing, China</h3>
+														<h3>Yoga</h3>
 													</div>
 												</article>
 												<article>
@@ -100,7 +134,7 @@
 														<img src="img/travel2.png" alt="">
 													</div>
 													<div class="card-body blog-text">
-														<h3>Tiananmen Square; Beijing, China</h3>
+														<h3>Great Wall of China; Beijing, China</h3>
 													</div>
 												</article>
 												<article>
@@ -108,7 +142,15 @@
 														<img src="img/travel6.jpeg" alt="">
 													</div>
 													<div class="card-body blog-text">
-														<h3>Tiananmen Square; Beijing, China</h3>
+														<h3>Oktoberfest; Munich, Germany</h3>
+													</div>
+												</article><!-- end /article -->
+												<article>
+													<div class="blog-image">
+														<img src="img/travel8.jpeg" alt="">
+													</div>
+													<div class="card-body blog-text">
+														<h3>Stonehenge, England</h3>
 													</div>
 												</article><!-- end /article -->
 											</div>
