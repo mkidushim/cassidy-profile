@@ -1,20 +1,16 @@
 <?php
-	<?php	
 	header("Access-Control-Allow-Origin: *");
 	header("Content-Type: application/json");
 	// $androidApiKey = '';
 
-	// User info for logging
-	$ip = $_SERVER['REMOTE_ADDR'];
-	$user_agent = 'Not Available';
-	if(isset($_REQUEST['HTTP_USER_AGENT'])){
-		$user_agent = $_REQUEST['HTTP_USER_AGENT'];
-	}
 
-	$dbHost = 'localhost';
-	$dbUser = 'root';
-	$dbPass = 'root';
-	$dbName = 'usma';
+	$dbHost = '';
+	$dbUser = '';
+	$dbPass = '';
+	$dbName = '';
+
+	$emailHost = '';
+	$fromEmail = '';
 
 	$response = array(
 		'status'=>'NO',
@@ -35,7 +31,12 @@
     $v = trim($v);
     return $v;
   } 
-
-?>
+  function log_and_respond($response){
+    global $m;    
+    global $_REQUEST;
+    $resp = json_encode($response);
+    echo $resp;
+    exit;
+  }
 
 ?>

@@ -90,6 +90,9 @@ section .style-primary{
   background-color:rgb(211, 171, 165);
   opacity: .5;
 }
+.form-group .form-control{
+  color: #777!important;
+}
 .form-group .form-control:focus{
   border-color:rgb(211, 171, 165);
 }
@@ -184,7 +187,7 @@ section .style-primary{
   border-color: rgb(211, 171, 165)!important;
 }
 .timeline.collapse-lg:before{
-  left:13px;
+  left:15px;
 }
 .card-body.style-default-dark h2{
   color: #fff;

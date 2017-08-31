@@ -1,1 +1,0 @@
-var baseURL = "https://hq.fusionofideas.com/"

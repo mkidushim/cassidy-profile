@@ -6,20 +6,15 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="keywords" content="your,keywords">
-		<meta name="description" content="Short explanation about this website">
+		<meta name="keywords" content="Cassidy Humphrey, Humphrey, Cassidy, Cassidy Humphrey Portfolio, Cassidy Humphrey Resume">
+		<meta name="description" content="Cassidy Humphrey portfolio website experience Page.">
 		<!-- BEGIN STYLESHEETS -->
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,600,700,800' rel='stylesheet' type='text/css'/>
 		<link type="text/css" rel="stylesheet" href="assets/css/theme-default/bootstrap.css" />
 		<link type="text/css" rel="stylesheet" href="assets/css/theme-default/materialadmin.css" />
-		<link type="text/css" rel="stylesheet" href="assets/css/theme-default/libs/select2/select2.css" />
-		<link type="text/css" rel="stylesheet" href="assets/css/theme-default/font-awesome.min.css" /> <!--Font Awesome Icon Font-->
+		<link type="text/css" rel="stylesheet" href="assets/css/theme-default/font-awesome.min.css" />
 		<link type="text/css" rel="stylesheet" href="assets/css/theme-default/material-design-iconic-font.min.css" />
-		<link type="text/css" rel="stylesheet" href="assets/css/theme-default/libs/summernote/summernote.css">
+		<link type="text/css" rel="stylesheet" href="assets/css/theme-default/materialadmin.css" />
 		<link rel="stylesheet" type="text/css" href="assets/css/theme-default/libs/toastr/toastr.css">
-		<link rel="stylesheet" type="text/css" href="css/jquery.dataTables.min.css"/>
-		<link rel="stylesheet" type="text/css" href="css/buttons.dataTables.min.css"/>
-		<link type="text/css" rel="stylesheet" href="assets/css/theme-default/libs/multi-select/multi-select.css">
 		<link type="text/css" rel="stylesheet" href="css/style.css">
 	</head>
 	<body class="menubar-hoverable header-fixed">
@@ -114,13 +109,13 @@
 											</div>
 											<div class="row">
 												<div class="col-md-12">
-													<div class="g-recaptcha" data-sitekey="6Lfrhy0UAAAAAOJnyRgC0N4Qoc9gDzg7-XEUJvSe"></div>
+													<!-- <div class="g-recaptcha" data-sitekey="6Lfrhy0UAAAAAOJnyRgC0N4Qoc9gDzg7-XEUJvSe"></div> -->
 												</div>
 											</div>
 											<div class="row">
 												<div class="col-md-12">
 													<div class="form-group">
-														<button type="submit" class="btn btn-raised btn-primary">Send Message</button>	
+														<button type="button" class="btn btn-raised btn-primary send-btn">Send Message</button>	
 													</div>
 												</div>
 											</div>
@@ -134,76 +129,73 @@
 			</div>	
 		</div>
 		<!-- BEGIN JAVASCRIPT -->
-	<script src="assets/js/libs/jquery/jquery-1.11.2.min.js"></script>
-	<script src="assets/js/libs/jquery/jquery-migrate-1.2.1.min.js"></script>
-	<script src="assets/js/libs/bootstrap/bootstrap.min.js"></script>
-	<script src="assets/js/libs/spin.js/spin.min.js"></script>
-	<script src="assets/js/libs/autosize/jquery.autosize.min.js"></script>
-	<script src="assets/js/libs/moment/moment.min.js"></script>
-	<script src="assets/js/libs/select2/select2.full.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?libraries=places&amp;key=AIzaSyBObu11OuhJgl9DhpGhufwO2RAp78gJQSs&amp;"></script>
-	<script src="assets/js/libs/gmaps/gmaps.js"></script>
-	<script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
-	<script type="text/javascript" src="js/dataTables.buttons.min.js"></script>
-	<script type="text/javascript" src="js/buttons.flash.min.js"></script>
-	<script type="text/javascript" src="js/buttons.html5.min.js"></script>
-	<script type="text/javascript" src="js/buttons.print.min.js"></script>
+		<script src="assets/js/libs/jquery/jquery-1.11.2.min.js"></script>
+		<script src="assets/js/libs/jquery/jquery-migrate-1.2.1.min.js"></script>
+		<script src="assets/js/libs/bootstrap/bootstrap.min.js"></script>
+		<script src="assets/js/libs/toastr/toastr.js"></script>
+		<script src="assets/js/core/source/App.js"></script>
+		<script src="assets/js/core/source/AppNavigation.js"></script>
+		<script src="assets/js/core/source/AppCard.js"></script>
+		<script src="assets/js/core/source/AppForm.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?libraries=places&amp;key=AIzaSyBObu11OuhJgl9DhpGhufwO2RAp78gJQSs&amp;"></script>
+		<script src="assets/js/libs/gmaps/gmaps.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#navbar ul li.contact').addClass('active');
+				var markerMap = new GMaps({
+					div: '#marker-map',
+					lat: 39.7392,
+					lng: -104.9903,
+					zoom: 11
+				});
 
-	<script src='https://www.google.com/recaptcha/api.js'></script>
-	<script src="assets/js/libs/nanoscroller/jquery.nanoscroller.min.js"></script>
-	<script src="assets/js/libs/dropzone/dropzone.min.js"></script>
-	<script src="assets/js/core/source/App.js"></script>
-	<script src="js/jscript.js"></script>
-	<script src="assets/js/core/source/AppNavigation.js"></script>
-	<script src="assets/js/core/source/AppOffcanvas.js"></script>
-	<script src="assets/js/core/source/AppCard.js"></script>
-	<script src="assets/js/core/source/AppForm.js"></script>
-	<script src="assets/js/core/source/AppNavSearch.js"></script>
-	<script src="assets/js/libs/dropzone/dropzone.min.js"></script>
-	<script src="assets/js/core/source/AppVendor.js"></script>	
-	<script src="assets/js/libs/toastr/toastr.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$('#navbar ul li.contact').addClass('active');
-			var markerMap = new GMaps({
-				div: '#marker-map',
-				lat: 39.7392,
-				lng: -104.9903,
-				zoom: 11
-			});
+				markerMap.addMarker({
+					lat: 39.7392,
+					lng: -104.9903,
+					title: 'Denver',
+					click: function (e) {
+						alert('You clicked in this marker');
+					}
+				});
 
-			markerMap.addMarker({
-				lat: 39.7392,
-				lng: -104.9903,
-				title: 'Denver',
-				click: function (e) {
-					alert('You clicked in this marker');
-				}
+				$(document).on('click','.send-btn',function(){
+					var form = new FormData();
+					var name = $('.name').val();
+					var email =$('.email').val();
+					var message = $('.message').val();
+					form.append('name',name);
+					form.append('email',email);
+					form.append('message',message);
+	        $.ajax({
+	          type: "POST",
+	          data: form,
+	          contentType: false,
+	          cache: false,
+	          processData:false,
+	          url: "php/submit_form.php", //portal file
+	          success: function(data) {
+	            if (data.status == "NO") {
+	              alert(data.content);
+	              return;
+	            } else {
+								var dc = data.content;
+								successMessage(dc);
+	            }
+	          }
+	        });
+	      });
 			});
-			$(document).on('submit','.form',function(){
-				var form = new FormData();
-				var name = $('.name').val();
-				var email =$('.email').val();
-				var message = $('.message').val();
-				form.append('email',email);
-				form.append('name',name);
-				form.append('message',message);
-        $.ajax({
-          type: "POST",
-          data: form,
-          url: "php/submit_form.php", //portal file
-          success: function(data) {
-            if (data.status == "NO") {
-              alert("Failed to set session.");
-              return;
-            } else {
-							console.log(data);
-            }
-          }
-        });
-      });
-		});
-	</script>
+			var successMessage = function(message){
+				toastr.options.positionClass = 'toast-top-full-width';
+				toastr.options.closeButton= 'true';
+				toastr.success(message);
+			}
+			var errorMessage = function(message){
+				toastr.options.positionClass = 'toast-top-center';
+				toastr.options.closeButton= 'true';
+				toastr.error(message);
+			}
+		</script>
 		<!-- Put App.js last in your javascript imports -->
 	</body>
 </html>
