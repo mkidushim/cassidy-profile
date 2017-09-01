@@ -74,13 +74,14 @@ section .style-primary{
  color: rgb(211, 171, 165) ; 
 }
 .list .tile i{
-  color: rgb(211, 171, 165) ; 
-  background-color: #777; 
+  background-color: rgb(211, 171, 165) ; 
+  color: #777; 
 }
 .text-primary{
   color:rgb(211, 171, 165) ;
 }
 .well.style-primary{
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.38);
   border: #fff!important;
 }
 .well div{
@@ -198,7 +199,7 @@ section .style-primary{
 .icon-circ{
   width: 36px;
   height: 36px;
-  background-color: #777;
+  background-color: rgb(211, 171, 165);
   border-radius: 20px;
   text-align: center;
 }
@@ -214,4 +215,7 @@ section .style-primary{
 }
 .custom-list li{
   white-space: normal;
+}
+.btn:hover{
+  color: #9c9697;
 }
