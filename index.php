@@ -31,8 +31,8 @@
 										<h1 class="text-bold text-center margin-left-xxl">Cassidy Humphrey<br>
 											<br>
 											<span class="social-holder">
-												<a href="https://www.facebook.com/cassidy.humphrey"><i class="fa fa-facebook-official"></i></a>
-												<a href="https://twitter.com/humphreycassidy"><i class="fa fa-twitter-square"></i></a>
+												<a href="https://www.facebook.com/cassidy.humphrey"><i class="fa fa-facebook"></i></a>
+												<a href="https://twitter.com/humphreycassidy"><i class="fa fa-twitter"></i></a>
 												<a href="https://www.linkedin.com/in/cassidy-humphrey-494299a4/"><i class="fa fa-linkedin-square"></i></a>
 												<a href="https://www.instagram.com/cassidyhumphrey/"><i class="fa fa-instagram"></i></a>
 											</span>

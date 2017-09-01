@@ -99,8 +99,31 @@ section .style-primary{
 .home-container h1,.home-container h5,.home-container div{
   display: inline-block;
 }
+.social-holder a{
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border-radius: 24px;
+  background-color: #fff;
+  margin: 0 1px;
+  color: #9e9e9e;
+  text-align: center;
+  -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+  color: #777;
+  line-height: 24px;
+  font-size: 16px;
+}
 .social-holder i{
-  color: #fff;
+  color: #777;
+  line-height: 36px;
+  font-size: 16px;
+}
+.social-holder a:hover{
+  -webkit-box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.2);
 }
 .home-container{
   position: relative;
@@ -127,7 +150,7 @@ section .style-primary{
 .home-container h1{
   color: #fff;
   position: absolute;
-  top: 20%;
+  top: 10%;
 }
 .btn-raised.btn-primary{
    background-color:rgb(211, 171, 165);
@@ -136,10 +159,8 @@ section .style-primary{
 .info-container{
   margin-top: 25px;
 }
-
 @media (max-width: 585px) {
   .home-img{
-    display: block!important;
     position: static;
     margin: auto;
   }

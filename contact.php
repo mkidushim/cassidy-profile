@@ -109,7 +109,7 @@
 											</div>
 											<div class="row">
 												<div class="col-md-12">
-													<!-- <div class="g-recaptcha" data-sitekey="6Lfrhy0UAAAAAOJnyRgC0N4Qoc9gDzg7-XEUJvSe"></div> -->
+													<div class="g-recaptcha" data-sitekey="6Lfrhy0UAAAAAOJnyRgC0N4Qoc9gDzg7-XEUJvSe"></div>
 												</div>
 											</div>
 											<div class="row">
