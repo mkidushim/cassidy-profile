@@ -157,7 +157,14 @@
 						alert('You clicked in this marker');
 					}
 				});
-
+				$(document).on('mouseenter','.tile',function(){
+					console.log('hover in');
+					$(this).find('i').css('color','#777');
+				});
+				$(document).on('mouseleave','.tile',function(){
+					$(this).find('i').css('color','#fff');
+					console.log('hover out');
+				});
 				$(document).on('click','.send-btn',function(){
 					var form = new FormData();
 					var name = $('.name').val();

@@ -74,8 +74,8 @@ section .style-primary{
  color: rgb(211, 171, 165) ; 
 }
 .list .tile i{
-  background-color: rgb(211, 171, 165) ; 
-  color: #777; 
+  background-color: rgb(211, 171, 165); 
+  color: #fff; 
 }
 .text-primary{
   color:rgb(211, 171, 165) ;
