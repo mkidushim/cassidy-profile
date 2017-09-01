@@ -216,6 +216,6 @@ section .style-primary{
 .custom-list li{
   white-space: normal;
 }
-.btn:hover{
+.well.style-primary:hover{
   color: #9c9697;
 }
