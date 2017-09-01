@@ -106,9 +106,19 @@ section .style-primary{
   position: relative;
 }
 .home-img{
+  border: 3px solid #fff;
+  background-color: #fff;
   position: absolute;
   bottom: -75px;
   left: 20px;
+  -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .card-body.home{
   padding-top: 45px;
@@ -223,4 +233,14 @@ section .style-primary{
   transition: box-shadow 0.15s ease-out!important;
   -webkit-box-shadow:0 3px 8px 0 rgba(0,0,0,0.38)!important;
   box-shadow:0 3px 8px 0 rgba(0,0,0,0.38)!important;
+}
+.home-img:hover{
+  -webkit-transform: translateY(-9px);
+  -ms-transform: translateY(-9px);
+  -o-transform: translateY(-9px);
+  transform: translateY(-9px);
+  -webkit-box-shadow: 0 18px 24px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 18px 24px rgba(0, 0, 0, 0.15);
+  -o-box-shadow: 0 18px 24px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 18px 24px rgba(0, 0, 0, 0.15);
 }

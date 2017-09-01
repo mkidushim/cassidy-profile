@@ -25,7 +25,7 @@
 							<div class="card">
 								<div class="card-body style-primary home">
 									<div class="margin-bottom-xxl home-container">
-										<div class="width-7 home-img">
+										<div class="home-img">
 											<img class="size-7" src="img/profile.jpeg" alt="Cassidy Humphrey Profile Picture">
 										</div>
 										<h1 class="text-bold text-center margin-left-xxl">Cassidy Humphrey<br>
