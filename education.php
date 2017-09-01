@@ -31,7 +31,7 @@
 												
 											</div>
 											<div class="timeline-entry">
-												<div class="card style-default-bright">
+												<div class="time card style-default-bright">
 													<div class="card-body small-padding">
 														<span class="text-bold">University of Denver, Denver, CO</span>
 														<br>
@@ -54,7 +54,7 @@
 										<li class="timeline-inverted">
 											<div class="timeline-circ circ-xl style-primary"></div>
 											<div class="timeline-entry">
-												<div class="card style-default-bright">
+												<div class="time card style-default-bright">
 													<div class="card-body small-padding">
 														<span class="text-medium">University of Lille III, Lille, France</span>
 														<br>

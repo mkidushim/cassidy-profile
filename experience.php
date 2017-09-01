@@ -29,7 +29,7 @@
 										<li class="timeline-inverted">
 											<div class="timeline-circ circ-xl style-primary"></div>
 											<div class="timeline-entry">
-												<div class="card style-default-bright">
+												<div class="time card style-default-bright">
 													<div class="card-body small-padding">
 														<img class="img-circle img-responsive pull-left width-1" src="" alt="">
 														<span class="text-medium">DANIELS COLLEGE OF BUSINESS -  Denver, CO </span>
@@ -51,7 +51,7 @@
 										<li class="timeline-inverted">
 											<div class="timeline-circ circ-xl style-primary"></div>
 											<div class="timeline-entry">
-												<div class="card style-default-bright">
+												<div class="time card style-default-bright">
 													<div class="card-body small-padding">
 														<img class="img-circle img-responsive pull-left width-1" src="" alt="">
 														<span class="text-medium">WUXI SUJINGRUI INTERNATIONAL TRADE COMPANY - Wuxi, China </span> 
@@ -76,7 +76,7 @@
 										<li class="timeline-inverted">
 											<div class="timeline-circ circ-xl style-primary"></div>
 											<div class="timeline-entry">
-												<div class="card style-default-bright">
+												<div class="time card style-default-bright">
 													<div class="card-body small-padding">
 														<img class="img-circle img-responsive pull-left width-1" src="" alt="">
 														<span class="text-medium">ELITE ASSOCIATES - Brea, CA </span>
@@ -101,7 +101,7 @@
 										<li class="timeline-inverted">
 											<div class="timeline-circ circ-xl style-primary"></div>
 											<div class="timeline-entry">
-												<div class="card style-default-bright">
+												<div class="time card style-default-bright">
 													<div class="card-body small-padding">
 														<img class="img-circle img-responsive pull-left width-1" src="" alt="">
 														<span class="text-medium">KENTEC MEDICAL -  Irvine, CA </span>
@@ -125,7 +125,7 @@
 										<li class="timeline-inverted">
 											<div class="timeline-circ circ-xl style-primary"></div>
 											<div class="timeline-entry">
-												<div class="card style-default-bright">
+												<div class="time card style-default-bright">
 													<div class="card-body small-padding">
 														<img class="img-circle img-responsive pull-left width-1" src="" alt="">
 														<span class="text-medium">RUBY’S DINER - Mission Viejo, CA </span>
