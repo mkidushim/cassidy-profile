@@ -81,7 +81,6 @@ section .style-primary{
   color:rgb(211, 171, 165) ;
 }
 .well.style-primary{
-  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.38);
   border: #fff!important;
 }
 .well div{
@@ -216,6 +215,12 @@ section .style-primary{
 .custom-list li{
   white-space: normal;
 }
+
+.btn-raised.btn-primary:hover{
+  color:#9c9697!important;
+}
 .well.style-primary:hover{
-  color: #9c9697;
+  transition: box-shadow 0.15s ease-out!important;
+  -webkit-box-shadow:0 3px 8px 0 rgba(0,0,0,0.38)!important;
+  box-shadow:0 3px 8px 0 rgba(0,0,0,0.38)!important;
 }
