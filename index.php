@@ -18,7 +18,7 @@
 	<body class="menubar-hoverable header-fixed">
 		<div id="base">
 			<?php	include('header.php'); ?>
-			<div id="content">
+			<div class="content-container home hide-section">
 				<section>
 					<div class="section-body">
 						<div class="row">
@@ -92,6 +92,499 @@
 					</div>
 				</section>
 			</div>	
+			<div class="content-container contact hide-section">
+				<section>
+					<div class="section-body">
+						<div class="row">
+							<div class="card">
+								<div class="card-head style-primary"> <header>Contact</header></div>
+								<div class="col-md-6">
+									<form class="form" role="form">
+										<div class="card-head transparent">
+											<header>Get In <span class="color-name">Touch</span></header>
+										</div>
+										<div class="card-body">
+											<div class="row">
+												<div class="col-md-12">
+													<div id="marker-map" class="border-gray height-6"></div>
+												</div>
+											</div>
+											<div class="row">
+												<ul class="list contact-list">
+													<li class="tile">
+														<a class="tile-content">
+															<div class="tile-icon">
+																<div class="icon-circ">
+																	<i class="fa fa-map-marker"></i>
+																</div>
+															</div>
+															<div class="tile-text">
+																Denver, CO, 80210
+															</div>
+														</a>
+													</li>
+													<li class="tile">
+														<a class="tile-content ink-reaction" href="tel:+9496063116">
+															<div class="tile-icon">
+																<div class="icon-circ">
+																	<i class="fa fa-phone"></i>
+																</div>
+															</div>
+															<div class="tile-text">
+																(949)606-3116
+															</div>
+														</a>
+													</li>
+													<li class="tile">
+														<a class="tile-content ink-reaction" href="mailto:Cassidy@cassidyhumphrey.com">
+															<div class="tile-icon">
+																<div class="icon-circ">
+																	<i class="fa fa-envelope"></i>
+																</div>
+															</div>
+															<div class="tile-text">
+																Cassidy@cassidyhumphrey.com
+															</div>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div class="col-md-6">
+									<form class="form" role="form">
+										<div class="card-head transparent">
+											<header>Contact <span class="color-name">Form</span></header>
+										</div>
+										<div class="card-body">
+											<div class="row">
+												<div class="col-md-12">
+													<div class="form-group">
+														<input type="text" name="name" class="form-control name" placeholder="Full Name">
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12">
+													<div class="form-group">
+														<input type="text" name="name" class="form-control email" placeholder="Email Address">
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12">
+													<div class="form-group">
+														<textarea name="message" class="form-control message" placeholder="Message For Me"></textarea>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12">
+													<div class="g-recaptcha" data-sitekey="6Lfrhy0UAAAAAOJnyRgC0N4Qoc9gDzg7-XEUJvSe"></div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12">
+													<div class="form-group">
+														<button type="button" class="btn btn-raised btn-primary send-btn">Send Message</button>	
+													</div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>	
+			<div class="content-container education hide-section">
+				<section>
+					<div class="section-body">
+						<div class="row">
+							<div class="card style-default-light">
+								<div class="card-head style-primary"> <header>Education</header></div>
+								<div class="card-body">
+									<ul class="timeline collapse-lg timeline-hairline">
+										<li class="timeline-inverted">
+											<div class="timeline-circ circ-xl style-primary">
+												
+											</div>
+											<div class="timeline-entry">
+												<div class="time card style-default-bright">
+													<div class="card-body small-padding">
+														<span class="text-bold">University of Denver, Denver, CO</span>
+														<br>
+														<span class="opacity-50 color-name">
+															Present - 2018
+														</span>
+														<span class="opacity-50">
+															| Bachelor of Science Business Administration
+														</span>
+														<br>
+														<ul class="custom-list">
+															<li>Current GPA: 3.97</li>
+															<li>Minors in Marketing and French</li>
+															<li>Relevant Courses: Business Calculus, Business Analytics , Accounting, International Finance,International Marketing, Consumer Behavior, B2B Marketing, International Business Law, and International Management.</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="timeline-inverted">
+											<div class="timeline-circ circ-xl style-primary"></div>
+											<div class="timeline-entry">
+												<div class="time card style-default-bright">
+													<div class="card-body small-padding">
+														<span class="text-medium">University of Lille III, Lille, France</span>
+														<br>
+														<span class="opacity-50 color-name">
+															September 2016 – December 2016
+														</span>
+														<span class="opacity-50">
+															| Semester Abroad
+														</span>
+														<br>
+														<ul class="custom-list">
+															<li>Studied French by taking courses in French cinema, language, and conversation</li>
+															<li>Acclimated to a new environment and used cross-cultural communications to overcome language barriers Maintained finances using various currencies </li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="content-container experience hide-section">
+				<section>
+					<div class="section-body">
+						<div class="row">
+							<div class="card style-default-light">
+								<div class="card-head style-primary"> <header>Experience</header></div>
+								<div class="card-body">
+									<ul class="timeline collapse-lg timeline-hairline">
+										<li class="timeline-inverted">
+											<div class="timeline-circ circ-xl style-primary"></div>
+											<div class="timeline-entry">
+												<div class="time card style-default-bright">
+													<div class="card-body small-padding">
+														<img class="img-circle img-responsive pull-left width-1" src="" alt="">
+														<span class="text-medium">DANIELS COLLEGE OF BUSINESS -  Denver, CO </span>
+														<br>
+														<span class="opacity-50 color-name">
+															November 2014 – Present
+														</span>
+														<span class="opacity-50">| Admissions Team / Front Desk Assistant
+														</span>
+														<br>
+														<ul class="custom-list">
+															<li >Meet with prospective students and advise them on the Daniels College of Business’ curriculum and student life  </li>
+															<li >Schedule advising appointments and participate in events relating to the Daniels College of Business  </li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="timeline-inverted">
+											<div class="timeline-circ circ-xl style-primary"></div>
+											<div class="timeline-entry">
+												<div class="time card style-default-bright">
+													<div class="card-body small-padding">
+														<img class="img-circle img-responsive pull-left width-1" src="" alt="">
+														<span class="text-medium">WUXI SUJINGRUI INTERNATIONAL TRADE COMPANY - Wuxi, China </span> 
+														<br>
+														<span class="opacity-50  color-name">
+															July 2017 – August 2017
+														</span>
+														<span class="opacity-50">
+															 | International Sales Intern  
+														</span>
+														<ul class="custom-list">
+															<li >Sourced suppliers for US restaurant packaging companies</li>
+															<li >Visited factories to perform quality checks and negotiate product pricing </li>
+															<li >Analyzed factory data concerning sales, production capacity, and customer satisfaction to evaluate the factories’ efficiency</li>
+															<li >Compared multiple factories’ performance data to choose the best factories for sourcing  
+															<li >Learned the Chinese culture to employ effective business interactions </li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="timeline-inverted">
+											<div class="timeline-circ circ-xl style-primary"></div>
+											<div class="timeline-entry">
+												<div class="time card style-default-bright">
+													<div class="card-body small-padding">
+														<img class="img-circle img-responsive pull-left width-1" src="" alt="">
+														<span class="text-medium">ELITE ASSOCIATES - Brea, CA </span>
+														<br>
+														<span class="opacity-50  color-name">
+															June 2015 – August 2015  
+														</span>
+														<span class="opacity-50">
+															| Summer Intern
+														</span>
+														<br>
+														<ul class="custom-list">
+															<li >Received an overview of the foodservice industry by working with the Marketing, Customer Service, and Sales Departments</li>
+															<li >Created order guides and customized flyers and points of sale for the Marketing Department</li>
+															<li >Compiled data to compare business trends and analyzed business performance by completing a gap analysis</li>
+															<li >Met with clients to introduce new products and complete sales with the Sales Department via cold-calls and food shows</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="timeline-inverted">
+											<div class="timeline-circ circ-xl style-primary"></div>
+											<div class="timeline-entry">
+												<div class="time card style-default-bright">
+													<div class="card-body small-padding">
+														<img class="img-circle img-responsive pull-left width-1" src="" alt="">
+														<span class="text-medium">KENTEC MEDICAL -  Irvine, CA </span>
+														<br>
+														<span class="opacity-50 color-name">
+															December 2014 – January 2015
+														</span>
+														<span class="opacity-50">
+															| Warehouse Inventory Assistant 
+														</span>
+														<br>
+														<ul class="custom-list">
+															<li >Organized medical supplies and prepared them for distribution</li>
+															<li >Calculated the business’ inventory and compared data to the previous year’s inventory count</li>
+															<li >Filed and organized invoices and other business documents</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="timeline-inverted">
+											<div class="timeline-circ circ-xl style-primary"></div>
+											<div class="timeline-entry">
+												<div class="time card style-default-bright">
+													<div class="card-body small-padding">
+														<img class="img-circle img-responsive pull-left width-1" src="" alt="">
+														<span class="text-medium">RUBY’S DINER - Mission Viejo, CA </span>
+														<br>
+														<span class="opacity-50 color-name">
+															June 2012 – June 2014
+														</span>
+														<span class="opacity-50">
+															| Cashier/Hostess
+														</span>
+														<br>
+														<ul class="custom-list">
+															<li >Monitored checkout stations to ensure that they had adequate cash available and that they were staffed appropriately </li>
+															<li >Provided on-the-job training to new employees</li>
+															<li >Employed customer service skills by greeting customers, answering customers’ questions, and providing information on  procedures or policies</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="content-container interests hide-section">
+				<section>
+					<div class="section-body contain-lg">
+						<div class="row">
+							<div class="card blog">
+								<div class="card-head style-primary"> <header>Interests</header></div>
+								<div class="col-lg-12 blog-container">
+									<div class="card card-type-blog-masonry style-default-bright">
+										<div class="row">
+											<div class="col-md-4">
+												<article>
+													<div class="blog-image">
+														<img src="img/travel1.jpeg" alt="">
+													</div>
+													<div class="card-body blog-text">
+														<h3>Tiananmen Square; Beijing, China</h3>
+													</div>
+												</article><!-- end /article -->
+												<article>
+													<div class="blog-image">
+														<img src="img/hiking.jpeg" alt="">
+													</div>
+													<div class="card-body blog-text">
+														<h3>Hiking</h3>
+													</div>
+												</article><!-- end /article -->
+												<article>
+													<div class="blog-image">
+														<img src="img/sorority.jpeg" alt="">
+													</div>
+													<div class="card-body blog-text">
+														<h3>Chi Omega Sorority</h3>
+													</div>
+												</article>
+												<article>
+													<div class="blog-image">
+														<img src="img/travel7.jpeg" alt="">
+													</div>
+													<div class="card-body blog-text">
+														<h3>Paris, France</h3>
+													</div>
+												</article><!-- end /article -->
+											</div><!--end .col -->
+											<div class="col-md-4 hidden-xs hidden-sm">
+												<article>
+													<div class="card-body blog-text">
+														<h3>Prague Castle; Prague, Czech Republic</h3>
+													</div>
+													<div class="blog-image">
+														<img src="img/travel4.jpeg" alt="">
+													</div>
+												</article><!-- end /article -->
+												<article>
+													<div class="card-body blog-text">
+														<h3>Florence, Italy</h3>
+													</div>
+													<div class="blog-image">
+														<img src="img/travel3.jpeg" alt="">
+													</div>
+												</article><!-- end /article -->
+												<article>
+													<div class="card-body blog-text">
+														<h3>Amsterdam</h3>
+													</div>
+													<div class="blog-image">
+														<img src="img/travel5.png" alt="">
+													</div>
+												</article>
+											</div>
+											<div class="col-md-4 hidden-lg hidden-md">
+												<article>
+													<div class="blog-image">
+														<img src="img/travel4.jpeg" alt="">
+													</div>
+													<div class="card-body blog-text">
+														<h3>Prague Castle; Prague, Czech Republic</h3>
+													</div>
+												</article><!-- end /article -->
+												<article>
+													<div class="blog-image">
+														<img src="img/travel3.jpeg" alt="">
+													</div>
+													<div class="card-body blog-text">
+														<h3>Florence, Italy</h3>
+													</div>
+												</article><!-- end /article -->
+												<article>
+													<div class="blog-image">
+														<img src="img/travel5.png" alt="">
+													</div>
+													<div class="card-body blog-text">
+														<h3>Amsterdam</h3>
+													</div>
+												</article>
+											</div>
+											<div class="col-md-4">
+												<article>
+													<div class="blog-image">
+														<img src="img/yoga.png" alt="">
+													</div>
+													<div class="card-body blog-text">
+														<h3>Yoga</h3>
+													</div>
+												</article>
+												<article>
+													<div class="blog-image">
+														<img src="img/travel2.png" alt="">
+													</div>
+													<div class="card-body blog-text">
+														<h3>Great Wall of China; Beijing, China</h3>
+													</div>
+												</article>
+												<article>
+													<div class="blog-image">
+														<img src="img/travel6.jpeg" alt="">
+													</div>
+													<div class="card-body blog-text">
+														<h3>Oktoberfest; Munich, Germany</h3>
+													</div>
+												</article><!-- end /article -->
+												<article>
+													<div class="blog-image">
+														<img src="img/travel8.jpeg" alt="">
+													</div>
+													<div class="card-body blog-text">
+														<h3>Stonehenge, England</h3>
+													</div>
+												</article><!-- end /article -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>	
+			<div class="content-container skills hide-section">
+				<section>
+					<div class="section-body">
+						<div class="row">
+							<div class="card">
+								<div class="card-head style-primary"> <header>Skills</header></div>
+								<div class="card-body">
+									<div class="row">
+										<div class="card-body col-md-6 text-center">
+											<div class="well style-primary">
+												<div class="clearfix">
+													Microsoft Word - Advanced
+												</div>
+											</div>
+										</div>
+										<div class="card-body col-md-6 text-center">
+											<div class="well style-primary">
+												<div class="clearfix">
+													Microsoft Excel - Advanced
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="card-body col-md-6 text-center">
+											<div class="well style-primary">
+												<div class="clearfix">
+													Power Point - Advanced
+												</div>
+											</div>
+										</div>
+										<div class="card-body col-md-6 text-center">
+											<div class="well style-primary">
+												<div class="clearfix">
+													French - Proficient
+												</div>
+											</div>
+										</div>
+										<div class="card-body col-md-6 text-center">
+											<div class="well style-primary">
+												<div class="clearfix">
+													Leadership - Secretary of Chi Omega
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>		
 		</div>
 		<!-- BEGIN JAVASCRIPT -->
 	<script src="assets/js/libs/jquery/jquery-1.11.2.min.js"></script>
@@ -101,10 +594,107 @@
 	<script src="assets/js/core/source/AppNavigation.js"></script>
 	<script src="assets/js/core/source/AppCard.js"></script>
 	<script src="assets/js/core/source/AppForm.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?libraries=places&amp;key=AIzaSyBObu11OuhJgl9DhpGhufwO2RAp78gJQSs&amp;"></script>
+	<script src="assets/js/libs/gmaps/gmaps.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$('#navbar ul li.home').addClass('active');
+			hashCheck();
+			$(document).on('click','#navbar li a',function(){
+				var page = $(this).parent().attr('target');
+				$('#navbar li').removeClass('active');
+				$('#navbar .'+page).addClass('active');
+				$('.content-container').addClass('hide-section');
+				$('.content-container.'+page).removeClass('hide-section');
+				window.location.hash = page;
+				if(page == 'contact'){
+					var markerMap = new GMaps({
+						div: '#marker-map',
+						lat: 39.7392,
+						lng: -104.9903,
+						zoom: 11
+					});
+
+					markerMap.addMarker({
+						lat: 39.7392,
+						lng: -104.9903,
+						title: 'Denver',
+						click: function (e) {
+							alert('You clicked in this marker');
+						}
+					});
+				}
+			});
+			
+			$(document).on('mouseenter','.tile',function(){
+				console.log('hover in');
+				$(this).find('i').css('color','#777');
+			});
+			$(document).on('mouseleave','.tile',function(){
+				$(this).find('i').css('color','#fff');
+				console.log('hover out');
+			});
+			$(document).on('click','.send-btn',function(){
+				var form = new FormData();
+				var name = $('.name').val();
+				var email =$('.email').val();
+				var message = $('.message').val();
+				form.append('name',name);
+				form.append('email',email);
+				form.append('message',message);
+        $.ajax({
+          type: "POST",
+          data: form,
+          contentType: false,
+          cache: false,
+          processData:false,
+          url: "php/submit_form.php", //portal file
+          success: function(data) {
+            if (data.status == "NO") {
+              alert(data.content);
+              return;
+            } else {
+							var dc = data.content;
+							successMessage(dc);
+            }
+          }
+        });
+      });
+      
 		});
+		function hashCheck(){
+			var hash = window.location.hash;
+			$('#navbar li').removeClass('active');
+			$('.content-container').addClass('hide-section');		
+			hash = hash.split('#');
+			hash = hash[1];
+			console.log(hash)
+			if (hash != ''){
+				$('#navbar li.'+hash).addClass('active');
+				$('.content-container.'+hash).removeClass('hide-section');		
+			}
+			if (hash ==undefined){
+				console.log('nav');
+				$('#navbar li').first().addClass('active');
+				$('.content-container').first().removeClass('hide-section');
+			}
+			if(hash == 'contact'){
+				var markerMap = new GMaps({
+					div: '#marker-map',
+					lat: 39.7392,
+					lng: -104.9903,
+					zoom: 11
+				});
+
+				markerMap.addMarker({
+					lat: 39.7392,
+					lng: -104.9903,
+					title: 'Denver',
+					click: function (e) {
+						alert('You clicked in this marker');
+					}
+				});
+			}
+		}
 	</script>
 		<!-- Put App.js last in your javascript imports -->
 	</body>
