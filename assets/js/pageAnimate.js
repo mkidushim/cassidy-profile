@@ -22,16 +22,9 @@ var PageTransitions = (function ($, options) {
     function init(options) {
 
         // Get all the .pt-page sections.
-        $('.pt-page').each( function() {
+        $('.content-container').each( function() {
             var $page = $(this);
             $page.data('originalClassList', $page.attr('class'));
-        });
-
-        // Get all the .pt-wrapper div which is the parent for all pt-div
-        sectionsContainer.each( function() {
-            if (location.hash === "") {
-                $('section[data-id='+ pageStart +']').addClass('pt-page-current');
-            }
         });
 
         // Adding click event to main menu link
@@ -42,94 +35,12 @@ var PageTransitions = (function ($, options) {
             }
             var pageTrigger = $(this);
 
-            activeMenuItem( pageTrigger );
 
             Animate( pageTrigger );
 
-            location.hash = $(this).attr('href');
 
         });
 
-        window.onhashchange = function(event) {
-            if(location.hash) {
-                if (isAnimating) {
-                    return false;
-                }
-                var menuLink = $(menu+' a[href*="'+location.hash.split('/')[0]+'"]');
-                activeMenuItem( menuLink );
-                Animate(menuLink);
-
-                ajaxLoader();
-            }
-        };
-    }
-
-    function getActiveSection() {
-        if(location.hash === "") {
-            return location.hash = defaultStartPage;
-        } 
-        else {
-            return location.hash;
-        }
-    }
-
-    function activeMenuItem(item) {
-        if ( !item ) {
-            return false;
-        }
-
-        var navLink = $(item);
-        navLink = navLink['0'];
-        navLink = $(navLink.parentNode);
-            
-        if(navLink) {
-            $('ul.site-main-menu li').removeClass('active');
-            navLink.addClass('active');
-        }
-    }
-
-    function ajaxLoader() {
-        // Check for hash value in URL
-        var ajaxLoadedContent = $('#page-ajax-loaded');
-
-        function showContent() {
-            ajaxLoadedContent.removeClass('rotateOutDownRight closed');
-            ajaxLoadedContent.show();
-            $('body').addClass('ajax-page-visible');
-        }
-
-        function hideContent() {
-            $('#page-ajax-loaded').addClass('rotateOutDownRight closed');
-            $('body').removeClass('ajax-page-visible');
-            setTimeout(function(){
-                $('#page-ajax-loaded.closed').html('');
-                ajaxLoadedContent.hide();
-            }, 500);
-        }
-
-        var href = $('.ajax-page-load').each(function(){
-            href = $(this).attr('href');
-            if(location.hash == location.hash.split('/')[0] + '/' + href.substr(0,href.length-5)){
-                var toLoad =  $(this).attr('href');
-                showContent();
-                ajaxLoadedContent.load(toLoad);
-                return false;
-            }
-        });
-
-        $(document)
-            .on("click",".site-main-menu, #ajax-page-close-button", function (e) { // Hide Ajax Loaded Page on Navigation cleck and Close button
-                e.preventDefault();
-                hideContent();
-                location.hash = location.hash.split('/')[0];
-            })
-            .on("click",".ajax-page-load", function () { // Show Ajax Loaded Page
-                var hash = location.hash.split('/')[0] + '/' + $(this).attr('href').substr(0,$(this).attr('href').length-5);
-                location.hash = hash;
-                showContent();
-
-                return false;
-            });
     }
 
     function Animate($pageTrigger, gotoPage) {
@@ -490,16 +401,6 @@ var PageTransitions = (function ($, options) {
 
     }
 
-    function onEndAnimation($pageWrapper, $nextPage, $currentPage) {
-        var subpagesHeight = $nextPage.height();
-        $(".subpages").height(subpagesHeight + 50); //50 is the bottom margin value of the pt-page, in the main.css file
-        resetPage($nextPage, $currentPage);
-    }
-
-    function resetPage($nextPage, $currentPage) {
-        $currentPage.attr('class', $currentPage.data('originalClassList'));
-        $nextPage.attr('class', $nextPage.data('originalClassList') + ' pt-page-current');
-    }
 
     return {
         init : init,
