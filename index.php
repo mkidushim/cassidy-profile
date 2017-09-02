@@ -18,7 +18,7 @@
 	<body class="menubar-hoverable header-fixed">
 		<div id="base">
 			<?php	include('header.php'); ?>
-			<div class="content-container home">
+			<div class="content-container home hide-section">
 				<section>
 					<div class="section-body">
 						<div class="row">
@@ -623,9 +623,6 @@
 						}
 					});
 				}
-				var an = $(this);
-				Animate(an);
-				console.log(page);
 			});
 			
 			$(document).on('mouseenter','.tile',function(){
@@ -666,16 +663,18 @@
 		});
 		function hashCheck(){
 			var hash = window.location.hash;
-			console.log(hash);
 			$('#navbar li').removeClass('active');
 			$('.content-container').addClass('hide-section');		
 			hash = hash.split('#');
 			hash = hash[1];
+			console.log(hash)
 			if (hash != ''){
 				$('#navbar li.'+hash).addClass('active');
 				$('.content-container.'+hash).removeClass('hide-section');		
-			} else {
-				$('#navbar').first().addClass('active');
+			}
+			if (hash ==undefined){
+				console.log('nav');
+				$('#navbar li').first().addClass('active');
 				$('.content-container').first().removeClass('hide-section');
 			}
 			if(hash == 'contact'){
