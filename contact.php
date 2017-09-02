@@ -52,7 +52,7 @@
 														</a>
 													</li>
 													<li class="tile">
-														<a class="tile-content ink-reaction" href="tel:+9496063116">
+														<a class="tile-content ink-reaction" href="tel:9496063116">
 															<div class="tile-icon">
 																<div class="icon-circ">
 																	<i class="fa fa-phone"></i>
