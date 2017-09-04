@@ -18,7 +18,7 @@
 	<body class="menubar-hoverable header-fixed">
 		<div id="base">
 			<?php	include('header.php'); ?>
-			<div class="content-container home">
+			<div class="content-container home hide-section">
 				<section>
 					<div class="section-body">
 						<div class="row">
@@ -92,7 +92,7 @@
 					</div>
 				</section>
 			</div>	
-			<div class="content-container contact hide">
+			<div class="content-container contact hide-section">
 				<section>
 					<div class="section-body">
 						<div class="row">
@@ -199,7 +199,7 @@
 					</div>
 				</section>
 			</div>	
-			<div class="content-container education hide">
+			<div class="content-container education hide-section">
 				<section>
 					<div class="section-body">
 						<div class="row">
@@ -261,7 +261,7 @@
 					</div>
 				</section>
 			</div>
-			<div class="content-container experience hide">
+			<div class="content-container experience hide-section">
 				<section>
 					<div class="section-body">
 						<div class="row">
@@ -396,7 +396,7 @@
 					</div>
 				</section>
 			</div>
-			<div class="content-container interests hide">
+			<div class="content-container interests hide-section">
 				<section>
 					<div class="section-body contain-lg">
 						<div class="row">
@@ -533,7 +533,7 @@
 					</div>
 				</section>
 			</div>	
-			<div class="content-container skills hide">
+			<div class="content-container skills hide-section">
 				<section>
 					<div class="section-body">
 						<div class="row">
@@ -600,35 +600,30 @@
 	<script src="assets/js/libs/gmaps/gmaps.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			var ptPage = $('.content-container');
-      if (ptPage[0]) {
-          PageTransitions.init({
-              menu: 'ul.nav',
-          });
-      }
+			hashCheck();
 			$(document).on('click','#navbar li a',function(){
 				var page = $(this).parent().attr('target');
 				$('#navbar li').removeClass('active');
 				$('#navbar .'+page).addClass('active');
-				$('.content-container').addClass('hide');
-				$('.content-container.'+page).removeClass('hide');
-				var an = $(this);
-				Animate(an);
-				console.log(page);
-			});
-			var markerMap = new GMaps({
-				div: '#marker-map',
-				lat: 39.7392,
-				lng: -104.9903,
-				zoom: 11
-			});
+				$('.content-container').addClass('hide-section');
+				$('.content-container.'+page).removeClass('hide-section');
+				window.location.hash = page;
+				if(page == 'contact'){
+					var markerMap = new GMaps({
+						div: '#marker-map',
+						lat: 39.7392,
+						lng: -104.9903,
+						zoom: 11
+					});
 
-			markerMap.addMarker({
-				lat: 39.7392,
-				lng: -104.9903,
-				title: 'Denver',
-				click: function (e) {
-					alert('You clicked in this marker');
+					markerMap.addMarker({
+						lat: 39.7392,
+						lng: -104.9903,
+						title: 'Denver',
+						click: function (e) {
+							alert('You clicked in this marker');
+						}
+					});
 				}
 			});
 			$(document).on('mouseenter','.tile',function(){
@@ -667,6 +662,40 @@
       });
       
 		});
+		function hashCheck(){
+			var hash = window.location.hash;
+			$('#navbar li').removeClass('active');
+			$('.content-container').addClass('hide-section');		
+			hash = hash.split('#');
+			hash = hash[1];
+			console.log(hash)
+			if (hash != ''){
+				$('#navbar li.'+hash).addClass('active');
+				$('.content-container.'+hash).removeClass('hide-section');		
+			}
+			if (hash ==undefined){
+				console.log('nav');
+				$('#navbar li').first().addClass('active');
+				$('.content-container').first().removeClass('hide-section');
+			}
+			if(hash == 'contact'){
+				var markerMap = new GMaps({
+					div: '#marker-map',
+					lat: 39.7392,
+					lng: -104.9903,
+					zoom: 11
+				});
+
+				markerMap.addMarker({
+					lat: 39.7392,
+					lng: -104.9903,
+					title: 'Denver',
+					click: function (e) {
+						alert('You clicked in this marker');
+					}
+				});
+			}
+		}
 	</script>
 		<!-- Put App.js last in your javascript imports -->
 	</body>
