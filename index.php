@@ -663,6 +663,7 @@
             } else {
 							var dc = data.content;
 							successMessage(dc);
+							$('.form-control').val('');
             }
           }
         });
