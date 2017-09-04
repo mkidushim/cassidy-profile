@@ -646,7 +646,7 @@
 					form.append(n,t);
 				});
 				if(missing_val ==  true){
-					errorMessage('please make sure to fill out the all form fields.');
+					errorMessage('please make sure to fill out all form fields.');
 					return;
 				}
         $.ajax({
