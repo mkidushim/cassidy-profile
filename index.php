@@ -50,7 +50,7 @@
 										</div>
 										<div class="col-md-12 margin-top-xxl hidden-xs hidden-sm">
 											<br>
-											<a href="contact.php" class="btn ink-reaction btn-raised btn-primary">Contact Me</a>
+											<a href="index.php#contact" class="btn ink-reaction btn-raised btn-primary">Contact Me</a>
 											<a href="img/resume.pdf" download class="pull-right btn ink-reaction btn-raised btn-primary">Download Resume</a>
 										</div>
 									</div>
