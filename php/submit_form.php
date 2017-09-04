@@ -32,9 +32,10 @@
   $mail->IsSMTP();
   $mail->Host = $emailHost;
   $mail->SMTPAuth = true;
-  $mail->Username = $fromEmail;
+  $mail->Username = 'AKIAIKT5WRK6JZUZIDVA';
   $mail->Password = $emailPass;
   $mail->SMTPSecure = 'tls';
+  $mail->Port = 587;   
   $mail->From = $fromEmail;
   $mail->FromName = $fromEmailName;
   $mail->AddAddress($fromEmail,$fromEmailName);
