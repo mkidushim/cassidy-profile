@@ -286,7 +286,6 @@ section .style-primary{
   left: 0;
   opacity: 1;
   padding-top: 15px;
-  z-index: 100000;
   -webkit-transition: all .8s ease-in-out;
   -moz-transition: all .8s ease-in-out;
   -o-transition:all .8s ease-in-out;

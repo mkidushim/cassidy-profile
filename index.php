@@ -13,6 +13,7 @@
 		<link type="text/css" rel="stylesheet" href="assets/css/theme-default/materialadmin.css" />
 		<link type="text/css" rel="stylesheet" href="assets/css/theme-default/font-awesome.min.css" />
 		<link type="text/css" rel="stylesheet" href="assets/css/theme-default/material-design-iconic-font.min.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/theme-default/libs/toastr/toastr.css">
 		<link type="text/css" rel="stylesheet" href="css/style.css">
 	</head>
 	<body class="menubar-hoverable header-fixed">
@@ -153,7 +154,7 @@
 									</form>
 								</div>
 								<div class="col-md-6">
-									<form class="form" role="form">
+									<form class="form form-validate" role="form">
 										<div class="card-head transparent">
 											<header>Contact <span class="color-name">Form</span></header>
 										</div>
@@ -161,21 +162,21 @@
 											<div class="row">
 												<div class="col-md-12">
 													<div class="form-group">
-														<input type="text" name="name" class="form-control name" placeholder="Full Name">
+														<input type="text" name="name" required class="form-control name" placeholder="Full Name">
 													</div>
 												</div>
 											</div>
 											<div class="row">
 												<div class="col-md-12">
 													<div class="form-group">
-														<input type="text" name="name" class="form-control email" placeholder="Email Address">
+														<input type="email" name="email" required class="form-control email" placeholder="Email Address">
 													</div>
 												</div>
 											</div>
 											<div class="row">
 												<div class="col-md-12">
 													<div class="form-group">
-														<textarea name="message" class="form-control message" placeholder="Message For Me"></textarea>
+														<textarea name="message" required class="form-control message" placeholder="Message For Me"></textarea>
 													</div>
 												</div>
 											</div>
@@ -590,8 +591,9 @@
 	<script src="assets/js/libs/jquery/jquery-1.11.2.min.js"></script>
 	<script src="assets/js/libs/jquery/jquery-migrate-1.2.1.min.js"></script>
 	<script src="assets/js/libs/bootstrap/bootstrap.min.js"></script>
-	<script src="assets/js/modernizer.js"></script>
-	<script src="assets/js/pageAnimate.js"></script>
+	<script src="assets/js/libs/toastr/toastr.js"></script>
+	<script src="assets/js/libs/jquery-validation/dist/jquery.validate.min.js"></script>
+	<script src="assets/js/libs/jquery-validation/dist/additional-methods.min.js"></script>
 	<script src="assets/js/core/source/App.js"></script>
 	<script src="assets/js/core/source/AppNavigation.js"></script>
 	<script src="assets/js/core/source/AppCard.js"></script>
@@ -621,27 +623,32 @@
 						lng: -104.9903,
 						title: 'Denver',
 						click: function (e) {
-							alert('You clicked in this marker');
+							alert('Denver, Colorado');
 						}
 					});
 				}
 			});
 			$(document).on('mouseenter','.tile',function(){
-				console.log('hover in');
 				$(this).find('i').css('color','#777');
 			});
 			$(document).on('mouseleave','.tile',function(){
 				$(this).find('i').css('color','#fff');
-				console.log('hover out');
 			});
 			$(document).on('click','.send-btn',function(){
 				var form = new FormData();
-				var name = $('.name').val();
-				var email =$('.email').val();
-				var message = $('.message').val();
-				form.append('name',name);
-				form.append('email',email);
-				form.append('message',message);
+				var missing_val = false;
+				$('.form-control').each(function(){
+					var t =$(this).val();
+					var n = $(this).attr('name');
+					if(t == ''){
+						missing_val = true;
+					}
+					form.append(n,t);
+				});
+				if(missing_val ==  true){
+					errorMessage('please make sure to fill out the all form fields.');
+					return;
+				}
         $.ajax({
           type: "POST",
           data: form,
@@ -662,19 +669,27 @@
       });
       
 		});
+		var successMessage = function(message){
+			toastr.options.positionClass = 'toast-top-center';
+			toastr.options.closeButton= 'true';
+			toastr.success(message);
+		}
+		var errorMessage = function(message){
+			toastr.options.positionClass = 'toast-top-center';
+			toastr.options.closeButton= 'true';
+			toastr.error(message);
+		}
 		function hashCheck(){
 			var hash = window.location.hash;
 			$('#navbar li').removeClass('active');
 			$('.content-container').addClass('hide-section');		
 			hash = hash.split('#');
 			hash = hash[1];
-			console.log(hash)
 			if (hash != ''){
 				$('#navbar li.'+hash).addClass('active');
 				$('.content-container.'+hash).removeClass('hide-section');		
 			}
 			if (hash ==undefined){
-				console.log('nav');
 				$('#navbar li').first().addClass('active');
 				$('.content-container').first().removeClass('hide-section');
 			}
@@ -691,7 +706,7 @@
 					lng: -104.9903,
 					title: 'Denver',
 					click: function (e) {
-						alert('You clicked in this marker');
+						alert('Denver, Colorado');
 					}
 				});
 			}

@@ -32,7 +32,7 @@
   $mail->IsSMTP();
   $mail->Host = $emailHost;
   $mail->SMTPAuth = true;
-  $mail->Username = 'AKIAIKT5WRK6JZUZIDVA';
+  $mail->Username = $awsUser;
   $mail->Password = $emailPass;
   $mail->SMTPSecure = 'tls';
   $mail->Port = 587;   
@@ -44,7 +44,7 @@
   $mail->Subject = 'Cassidy Humphrey Website Message Sent From: '.$name;
   $mail->Body = $message.'<br>From:'.$name.'   Email:'.$email;
   if (!$mail->Send()){
-    $response['content'] = 'Message count not be sent<br>Mailer Error:'.$mail->ErrorInfo;
+    $response['content'] = 'Message count not be sent<br>Mailer Error:'.$awsUser;
     log_and_respond($response);
   }
   $response['content'] = 'Message succesfully submitted.';
