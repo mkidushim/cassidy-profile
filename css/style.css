@@ -315,7 +315,16 @@ section .style-primary{
   opacity: 0;
   z-index: 1;
   height: 0;
-  transform: translateY(-100%);
+  transform: translateY(100%);
+  background-color: transparent;
+  overflow: hidden;
+  visibility: hidden;
+}
+.content-container.hide-section.contact{
+  opacity: 0;
+  z-index: 1;
+  height: 0;
+  transform: translateX(100%);
   background-color: transparent;
   overflow: hidden;
   visibility: hidden;
@@ -324,7 +333,7 @@ section .style-primary{
   opacity: 0;
   z-index: 1;
   height: 0;
-  transform: translateY(-100%);
+  width: 0;
   background-color: transparent;
   overflow: hidden;
   visibility: hidden;
