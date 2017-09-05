@@ -137,11 +137,11 @@ section .style-primary{
   -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
   -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
   box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  -moz-transition: transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  -ms-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 .card-body.home{
   padding-top: 45px;
@@ -271,10 +271,60 @@ section .style-primary{
 .time.card:hover{
   box-shadow:0px 0px 8px 0px rgba(0,0,0,0.2)!important;
 }
+.content-container.hide-section.home{
+  opacity: 0;
+  z-index: 1;
+  height: 0;
+  -ms-transform: rotate(-100deg); /* IE 9 */
+  -webkit-transform: rotate(-100deg); /* Safari */
+  transform: rotate(-100deg); 
+  background-color: transparent;
+  overflow: hidden;
+  visibility: hidden;
+}
+.content-container.hide-section.interests{
+  opacity: 0;
+  z-index: 1;
+  height: 0;
+  -ms-transform: rotate(200deg); /* IE 9 */
+  -webkit-transform: rotate(200deg); /* Safari */
+  transform: rotate(200deg); 
+  background-color: transparent;
+  overflow: hidden;
+  visibility: hidden;
+}
+.content-container.hide-section.experience{
+  opacity: 0;
+  z-index: 1;
+  height: 0;
+  transform: translateX(-100%);
+  background-color: transparent;
+  overflow: hidden;
+  visibility: hidden;
+}
+.content-container.hide-section.skills{
+  opacity: 0;
+  z-index: 1;
+  height: 0;
+  transform: skew(100deg);
+  background-color: transparent;
+  overflow: hidden;
+  visibility: hidden;
+}
+.content-container.hide-section.education{
+  opacity: 0;
+  z-index: 1;
+  height: 0;
+  transform: translateY(-100%);
+  background-color: transparent;
+  overflow: hidden;
+  visibility: hidden;
+}
 .content-container.hide-section{
   opacity: 0;
   z-index: 1;
   height: 0;
+  transform: translateY(-100%);
   background-color: transparent;
   overflow: hidden;
   visibility: hidden;
@@ -286,8 +336,9 @@ section .style-primary{
   left: 0;
   opacity: 1;
   padding-top: 15px;
-  -webkit-transition: all .8s ease-in-out;
-  -moz-transition: all .8s ease-in-out;
-  -o-transition:all .8s ease-in-out;
-  transition: all .8s ease-in-out;
+  margin: 0;
+  -webkit-transition: transform 1s ease-in;
+  -moz-transition: transform 1s ease-in;
+  -o-transition: transform 1s ease-in;
+  transition: transform 1s ease-in;
 }
