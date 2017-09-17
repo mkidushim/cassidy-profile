@@ -715,13 +715,13 @@
 				$('.content-container.'+hash).addClass('active').removeClass('hide-section');		
 			}
 			if (hash ==undefined){
-				$('.content-container').first().addClass('active').removeClass('hide-section');
-				var el = $('.content-container').first();
+				$('.content-container.home').addClass('active').removeClass('hide-section');
+				var el = $('.content-container.home').first();
 				el.remove();
 				var newone = el.clone(true);
 				$('#pt-main').append(newone);
-				$('#navbar li').first().addClass('active');
-				$('.content-container').first().addClass('active').removeClass('hide-section');
+				$('#navbar li.home').addClass('active');
+				$('.content-container.home').addClass('active').removeClass('hide-section');
 			}
 			if(hash == 'contact'){
 				var markerMap = new GMaps({
