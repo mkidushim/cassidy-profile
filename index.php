@@ -100,7 +100,7 @@
 						</div>
 					</section>
 				</div>	
-				<div data-id="contact" class="pt-page content-container contact hide-section pt-page-moveToLeftFade pt-page-rotateUnfoldRight">
+				<div data-id="contact" class="pt-page content-container contact hide-section pt-page-moveToRightFade pt-page-rotateUnfoldLeft">
 					<section>
 						<div class="section-body">
 							<div class="row">
@@ -404,7 +404,7 @@
 						</div>
 					</section>
 				</div>
-				<div data-id="interests" class="pt-page content-container interests hide-section pt-page-moveToTopFade pt-page-rotateUnfoldBottom">
+				<div data-id="interests" class="pt-page content-container interests hide-section pt-page-moveFromLeftFade">
 					<section>
 						<div class="section-body contain-lg">
 							<div class="row">
@@ -541,7 +541,7 @@
 						</div>
 					</section>
 				</div>	
-				<div data-id="skills" class="pt-page content-container skills hide-section pt-page-rotateSlideIn">
+				<div data-id="skills" class="pt-page content-container skills hide-section pt-page-rotateUnfoldBottom">
 					<section>
 						<div class="section-body">
 							<div class="row">
