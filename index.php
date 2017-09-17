@@ -404,7 +404,7 @@
 						</div>
 					</section>
 				</div>
-				<div data-id="interests" class="pt-page content-container interests hide-section pt-page-moveFromLeftFade">
+				<div data-id="interests" class="pt-page content-container interests hide-section pt-page-moveFromBottomFade">
 					<section>
 						<div class="section-body contain-lg">
 							<div class="row">
