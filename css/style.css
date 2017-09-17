@@ -10,6 +10,8 @@ body{
 }
 #base{
   padding-left: 0px;
+  height: 100%;
+  overflow-y: scroll;  
 }
 .card {
   border-radius: 10px;
@@ -274,83 +276,26 @@ section .style-primary{
 .time.card:hover{
   box-shadow:0px 0px 8px 0px rgba(0,0,0,0.2)!important;
 }
-.content-container.hide-section.home{
-  opacity: 0;
-  z-index: 1;
-  height: 0;
-  -ms-transform: rotate(-100deg); /* IE 9 */
-  -webkit-transform: rotate(-100deg); /* Safari */
-  transform: rotate(-100deg); 
-  background-color: transparent;
-  overflow: hidden;
-  visibility: hidden;
-}
-.content-container.hide-section.interests{
-  opacity: 0;
-  z-index: 1;
-  height: 0;
-  -ms-transform: rotate(200deg); /* IE 9 */
-  -webkit-transform: rotate(200deg); /* Safari */
-  transform: rotate(200deg); 
-  background-color: transparent;
-  overflow: hidden;
-  visibility: hidden;
-}
-.content-container.hide-section.experience{
-  opacity: 0;
-  z-index: 1;
-  height: 0;
-  transform: translateX(-100%);
-  background-color: transparent;
-  overflow: hidden;
-  visibility: hidden;
-}
-.content-container.hide-section.skills{
-  opacity: 0;
-  z-index: 1;
-  height: 0;
-  transform: skew(100deg);
-  background-color: transparent;
-  overflow: hidden;
-  visibility: hidden;
-}
-.content-container.hide-section.education{
-  opacity: 0;
-  z-index: 1;
-  height: 0;
-  transform: translateY(100%);
-  background-color: transparent;
-  overflow: hidden;
-  visibility: hidden;
-}
-.content-container.hide-section.contact{
-  opacity: 0;
-  z-index: 1;
-  height: 0;
-  transform: translateX(100%);
-  background-color: transparent;
-  overflow: hidden;
-  visibility: hidden;
-}
+
 .content-container.hide-section{
   opacity: 0;
-  z-index: 1;
+  z-index: 0;
   height: 0;
   width: 0;
   background-color: transparent;
   overflow: hidden;
   visibility: hidden;
+  left: 100%;
 }
-.content-container{
-  position: absolute;
-  width: 100%;
-  overflow: hidden;
-  left: 0;
+.content-container:not(.hide-section){
+  visibility: visible;
+  z-index: 10000000;
   opacity: 1;
-  padding-top: 15px;
-  margin: 0;
-  -webkit-transition: transform 1s ease-in;
-  -moz-transition: transform 1s ease-in;
-  -o-transition: transform 1s ease-in;
-  transition: transform 1s ease-in;
+  left:0;
+  width: 100%;
+  overflow: visible;
+  height: 100%;
+}
+.pt-page .card.default-style-light{
+  margin-bottom: 75px;
 }

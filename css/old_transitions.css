@@ -1,0 +1,97 @@
+.content-container.hide-section.home{
+  opacity: 0;
+  z-index: 1;
+  height: 0;
+  -ms-transform: rotate(-100deg); /* IE 9 */
+  -webkit-transform: rotate(-100deg); /* Safari */
+  transform: rotate(-100deg); 
+  background-color: transparent;
+  overflow: hidden;
+  visibility: hidden;
+}
+.content-container.hide-section.interests{
+  opacity: 0;
+  z-index: 1;
+  height: 0;
+  -ms-transform: rotate(200deg); /* IE 9 */
+  -webkit-transform: rotate(200deg); /* Safari */
+  transform: rotate(200deg); 
+  background-color: transparent;
+  overflow: hidden;
+  visibility: hidden;
+}
+.content-container.hide-section.experience{
+  opacity: 0;
+  z-index: 1;
+  height: 0;
+  transform: translateX(-100%);
+  background-color: transparent;
+  overflow: hidden;
+  visibility: hidden;
+}
+.content-container.hide-section.skills{
+  opacity: 0;
+  z-index: 1;
+  height: 0;
+  transform: skew(100deg);
+  background-color: transparent;
+  overflow: hidden;
+  visibility: hidden;
+}
+.content-container.hide-section.education{
+  opacity: 0;
+  z-index: 1;
+  height: 0;
+  transform: translateY(100%);
+  background-color: transparent;
+  overflow: hidden;
+  visibility: hidden;
+}
+.content-container.hide-section.contact{
+  opacity: 0;
+  z-index: 1;
+  height: 0;
+  transform: translateX(100%);
+  background-color: transparent;
+  overflow: hidden;
+  visibility: hidden;
+}
+.content-container.hide-section{
+  opacity: 0;
+  z-index: 1;
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  overflow: hidden;
+  visibility: hidden;
+}
+.content-container{
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  padding-top: 15px;
+  top: auto;
+  margin: 0;
+  -webkit-transition: transform 1s ease-in;
+  -moz-transition: transform 1s ease-in;
+  -o-transition: transform 1s ease-in;
+  transition: transform 1s ease-in;
+  background-color: transparent;
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.content-container:not(.hide-section){
+  visibility: visible;
+  z-index: 90;
+  opacity: 1;
+  /*left: 100%;*/
+  overflow: visible;
+  height: auto;
+}
