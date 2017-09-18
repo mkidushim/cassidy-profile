@@ -82,7 +82,7 @@
 												<br>
 												<div class="clearfix">
 													<div class="pull-left">Address</div>
-													<div class="pull-right">2171 S Lafayette St. Denver, CO 80210</div>
+													<div class="pull-right">Denver, CO</div>
 												</div>
 											</div>
 										</div>
@@ -127,7 +127,7 @@
 																	</div>
 																</div>
 																<div class="tile-text">
-																	Denver, CO, 80210
+																	Denver, CO
 																</div>
 															</a>
 														</li>
@@ -277,6 +277,27 @@
 									<div class="card-head style-primary"> <header>Experience</header></div>
 									<div class="card-body">
 										<ul class="timeline collapse-lg timeline-hairline">
+											<li class="timeline-inverted">
+												<div class="timeline-circ circ-xl style-primary"></div>
+												<div class="timeline-entry">
+													<div class="time card style-default-bright">
+														<div class="card-body small-padding">
+															<img class="img-circle img-responsive pull-left width-1" src="" alt="">
+															<span class="text-medium">Fentress Architects Denver, CO </span>
+															<br>
+															<span class="opacity-50 color-name">
+																August 2017-Present
+															</span>
+															<span class="opacity-50">| Marketing Intern
+															</span>
+															<br>
+															<ul class="custom-list">
+																<li>I work directly with the marketing team and key decision makers to continue to build on an already existing brand.</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</li>
 											<li class="timeline-inverted">
 												<div class="timeline-circ circ-xl style-primary"></div>
 												<div class="timeline-entry">
