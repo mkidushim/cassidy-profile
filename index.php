@@ -88,7 +88,7 @@
 										</div>
 										<div class="col-xs-12 col-sm-12 hidden-md hidden-lg hidden-xl">
 											<br>
-											<a href="contact.php" class="btn ink-reaction btn-raised btn-primary mobile-btn">Contact Me</a>
+											<a href="index.php#contact" class="btn ink-reaction btn-raised btn-primary mobile-btn">Contact Me</a>
 										</div>
 										<div class="col-xs-12 col-sm-12 hidden-md hidden-lg hidden-xl">
 											<br>
